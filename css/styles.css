@@ -60,6 +60,7 @@ img {
     font-style: normal;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-page .container {
@@ -93,6 +94,7 @@ img {
 
 .main-page {
     background: #2E2F42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -103,7 +105,6 @@ img {
     text-align: center;
     color: #FFFFFF;
     max-width: 496px;
-    padding-top: 188px;
     padding-bottom: 48px;
     margin: 0 auto;
       
@@ -111,8 +112,8 @@ img {
 
 .button {
     font-family: "Roboto", sans-serif;
-    ;
-    background: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -121,7 +122,11 @@ img {
     padding: 16px 32px;
     line-height: 1.5;
     margin-left: 480px;
-    margin-bottom: 188px;
+    display: block;
+    min-width: 169px;
+    border-radius: 4px;
+    height: 56px;
+    border: none;
 }
 
 .button:hover,
@@ -156,6 +161,9 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -173,12 +181,15 @@ img {
 
 .section-two {
     margin: 120px 0;
-
+    padding: 120px 0
 }
 
-.section-two .container ul {
+.section-two-ul {
     display: flex;
     gap: 24px;
+}
+.element-section-two {
+    width: calc((100% - 72px) / 4);
 }
 
 .feature {
@@ -188,6 +199,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .text {
@@ -207,19 +219,19 @@ img {
 }
 
 .title-main {
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.11;
-     letter-spacing: 0.02em;
-     text-align: center;
-     color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
     text-transform: capitalize;
-    padding: 120px 0 72px;
-    
+    margin-bottom: 72px;
 }
 
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0
 }
 
 .section-team .container ul {
@@ -230,12 +242,14 @@ img {
 
 .our-team-section {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*========section four====*/
 
 .section-four {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .section-four .container ul {
