@@ -173,12 +173,12 @@ img {
 
 .section-two {
     margin: 120px 0;
+
 }
 
-.section-two .container {
+.section-two .container ul {
     display: flex;
     gap: 24px;
-
 }
 
 .feature {
@@ -222,7 +222,7 @@ img {
     background-color: #F4F4FD;
 }
 
-.section-team .container {
+.section-team .container ul {
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
@@ -238,8 +238,9 @@ img {
     padding-bottom: 120px;
 }
 
-.section-four .container {
+.section-four .container ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding-bottom: 48px;
 }
