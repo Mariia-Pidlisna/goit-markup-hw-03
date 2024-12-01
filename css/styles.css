@@ -183,7 +183,9 @@ img {
 }
 
 /*========section two======*/
-
+.visually-hidden {
+    visibility: hidden;
+}
 
 .section-two {
     margin: 120px 0;
