@@ -1,24 +1,97 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    
 }
+
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/* ======== header =========*/
 
 .header-page {
     overflow: hidden; 
-    background-color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .menu-nav {
-    margin-left: 156px;
-    margin-right: 56px;
+    display: flex;
+    gap: 76px;
+    align-items: center;
+    margin-right: auto;
 }
+
+.menu-nav-ul {
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+
+.header-page .container {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.menu-contact {
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+
+.contact {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+/* =====main======*/
 
 .main-page {
-    background: #2E2F42;
-}
-
-.main-page-footer {
     background: #2E2F42;
 }
 
@@ -29,6 +102,83 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    margin: 0 auto;
+      
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    ;
+    background: #4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    line-height: 1.5;
+    margin-left: 480px;
+    margin-bottom: 188px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.menu-nav-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu-nav-header:hover,
+.menu-nav-header:active,
+.menu-nav-header:focus {
+    color: #404BBF;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+/*========section two======*/
+
+.section-two {
+    margin: 120px 0;
+}
+
+.section-two .container {
+    display: flex;
+    gap: 24px;
+
 }
 
 .feature {
@@ -49,37 +199,52 @@ body {
     text-align: left;
 }
 
-.text-footer {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 400;
-    color: #F4F4FD;
-}
+/* =====section three====*/
+
+
 .title {
     font-family: "Roboto", "Raleway", sans-serif;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    text-decoration: none;
+.title-main {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #2E2F42;
+    text-transform: capitalize;
+    padding: 120px 0 72px;
+    
 }
-.logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-    text-decoration: none;
+
+.section-team {
+    background-color: #F4F4FD;
 }
+
+.section-team .container {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.our-team-section {
+    background-color: #FFFFFF;
+}
+
+/*========section four====*/
+
+.section-four {
+    padding-bottom: 120px;
+}
+
+.section-four .container {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 48px;
+}
+
+/*========footer========*/
 
 .logo-studio-footer {
     font-family: "Raleway", sans-serif;
@@ -92,89 +257,21 @@ body {
     text-decoration: none;
 }
 
-.button {
-    font-family: "Roboto", sans-serif;;
-    background: #4D5AE5;
-    cursor: pointer;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-    line-height: 1.5;
-}
-.button:hover {
-    background-color: #404BBF;
+
+
+.main-page-footer {
+    background: #2E2F42;
+    padding: 100px 0;  
 }
 
-.button:focus {
-    background-color: #404BBF;
-}
-
-.menu-nav-header {
-    font-style: normal;
-    font-weight: 500;
+.text-footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.menu-nav-header:hover {
-    color: #404BBF;
-}
-.menu-nav-header:active {
-    color: #404BBF;
-}
-.menu-nav-header:focus {
-    color: #404BBF;
-}
-
-.menu-nav-ul {
-    list-style-type: none;
-    font-style: normal;
-}
-
-.contact{
     font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-.contact:hover {
-    color: #404BBF;
+    color: #F4F4FD;
+    max-width: 264px;
+    padding-top: 16px;
+    padding-bottom: 100px;
 }
 
-.contact:focus {
-    color: #404BBF;
-}
-
-.title-main {
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.11;
-     letter-spacing: 0.02em;
-     text-align: center;
-     color: #2E2F42;
-    text-transform: capitalize;
-}
-.section-team {
-    background-color: #F4F4FD;
-}
-
-.section-team-li {
-    background-color: #FFFFFF;
-}
-
-.our-team-section {
-    background-color: #FFFFFF;
-}
