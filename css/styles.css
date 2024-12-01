@@ -31,6 +31,15 @@ img {
     display: block;
     max-width: 100%;
 }
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 /* ======== header =========*/
 
 .header-page {
@@ -183,17 +192,6 @@ img {
 }
 
 /*========section two======*/
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
 
 .section-two {
     padding: 120px 0
