@@ -37,8 +37,7 @@ img {
     overflow: hidden; 
     border-bottom: 1px solid #E7E9FC;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .container{
@@ -53,6 +52,7 @@ img {
     gap: 76px;
     align-items: center;
     margin-right: auto;
+    
 }
 
 .menu-nav-ul {
@@ -60,12 +60,13 @@ img {
     font-style: normal;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .header-page .container {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .menu-contact {
@@ -73,6 +74,7 @@ img {
     font-style: normal;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact {
@@ -144,6 +146,7 @@ img {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
+    padding: 24px 0
 }
 
 .menu-nav-header:hover,
@@ -165,6 +168,7 @@ img {
     display: inline-block;
     margin-bottom: 16px;
     padding: 24px 0
+    
 }
 
 .logo-studio {
@@ -179,9 +183,7 @@ img {
 }
 
 /*========section two======*/
-.visually-hidden {
-    visibility: hidden;
-}
+
 
 .section-two {
     margin: 120px 0;
@@ -277,6 +279,10 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+
+.element-section-four {
+    width: calc((100% - 48px) / 3);
 }
 
 /*========footer========*/
